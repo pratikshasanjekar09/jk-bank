@@ -1,0 +1,11 @@
+<section class="faq">
+    <div class="faq-item" *ngFor="let item of faqItems">
+      <div class="faq-question" (click)="toggleFaq(item)">
+        <i class="fas" [ngClass]="{'fa-plus': !item.isOpen, 'fa-minus': item.isOpen}"></i>
+        {{ item.question }}
+      </div>
+      <div class="faq-answer" [class.open]="item.isOpen">{{ item.answer }}</div>
+    </div>
+  </section>
+  
+  

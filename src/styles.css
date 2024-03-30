@@ -1,0 +1,152 @@
+/* Custom styles for the bank logo */
+/* Custom CSS for the logo */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove text decoration from all links */
+a {
+  text-decoration: none !important;
+}
+
+/* Custom CSS for the logo */
+.bank-logo {
+  width: auto;
+  max-height: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Set a fixed height for the container only on mobile and tablet views */
+@media (max-width: 576px) {
+  .col-12.col-md-4.col-lg-1.d-flex.justify-content-center.align-items-center.bg-white.pb-3.pb-md-0 {
+    height: auto;
+  }
+}
+
+/* Increase the logo size for desktop screens (adjust width and height as needed) */
+@media (min-width: 992px) {
+  .bank-logo {
+    width: auto;
+    max-height: 150px; /* Adjust the height as needed for desktop view */
+  }
+}
+
+
+.navbar-nav .nav-link {
+  font-size: 18px; /* Adjust the font size as needed */
+  color: white !important; /* Set the font color to white */
+  text-align: left; /* Center-align the text */
+  padding: 0px;
+}
+
+/* Custom CSS for adding padding to the navigation menu items */
+.navbar-nav li.nav-item {
+  padding: 10px; /* Adjust the padding value as needed */
+}
+
+/* Custom styles for the collapsed button */
+.navbar-toggler {
+  margin-right: 15px; /* Add margin to the collapsed button */
+}
+
+/* Custom styles for the image container */
+.image-container {
+  text-align: center; /* Center-align the image within the container */
+  padding: 0px; /* Add padding to the container as needed */
+  margin-top:-20px ;
+}
+
+.image-container img {
+  max-width: auto; /* Ensure the image fits within the container */
+  height: 100%; /* Maintain the image's aspect ratio */
+}
+
+/* Custom CSS for the links to remove underlines */
+.navbar-text a {
+  text-decoration: none !important;
+  color: blue;
+}
+
+/* Custom CSS for aligning navigation links to the right on larger screens */
+@media (min-width: 768px) {
+  .navbar-nav.ml-auto {
+    margin-left: auto !important; /* Align navigation links to the right */
+    padding-right: 0px; /* Add some padding to separate links from the right edge */
+  }
+
+}
+
+/* Default styles for navigation links */
+
+/* Hide navigation links on screens smaller than or equal to 768px */
+@media (max-width: 768px) {
+  .navigation-links {
+    display: none;
+  }
+  /* .col-sm-4.d-flex.justify-content-center.align-items-stretch.logo-data {
+    background-color: white;
+    padding-bottom: 25px;
+    margin: 8px;
+} */
+}
+.about-us {
+  padding: 50px 0;
+}
+
+.about-us .container {
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px;
+  background-color: #fff;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  border-radius: 5px;
+}
+
+.about-us h2 {
+  color: #5f4ef5;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.about-us h3 {
+  color: #5f4ef5;
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.about-us h4 {
+  color: #666;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* Add more specific styles as needed */
+
+.about-us ul {
+  list-style: none; /* Remove default list styles */
+  padding: 0;
+  text-align: left; /* Align list items to the left */
+  margin-top: 20px; /* Add some space between the text and the list */
+}
+
+.about-us li {
+  color: #333; /* Text color for list items */
+  font-size: 16px;
+  margin-bottom: 10px; /* Add spacing between list items */
+}
+
+.about-us li::before {
+  content: '\2022'; /* Add a bullet symbol before each list item */
+  color: #5f4ef5; /* Color for the bullet symbol */
+  font-size: 16px;
+  margin-right: 10px; /* Add spacing between the bullet and the text */
+}

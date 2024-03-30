@@ -1,0 +1,72 @@
+.image-container {
+    overflow: hidden; /* Hide any overflowing content */
+}
+
+.img-fluid {
+    width: 100%; /* Make the image width 100% of its container */
+    height: auto; /* Ensure the image maintains its aspect ratio */
+}
+
+.feature-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-icon {
+    font-size: 48px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .feature-card:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+    transition: 0.3s;
+  }
+
+  .welcome-content {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .welcome-message {
+    font-size: 36px;
+    color: #5f4ef5;
+  }
+  
+  .welcome-description {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .feature-card {
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+    transition: transform 0.3s;
+    margin-top: 20px; /* Added top margin to separate feature cards */
+
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+  }
+  

@@ -1,0 +1,36 @@
+/* Custom CSS for the dropdown */
+.dropdown-menu {
+    background-color: #ffffff; /* Background color for the dropdown menu */
+    border: none; /* Remove borders */
+    border-radius: 0; /* Remove border radius */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  
+  .dropdown-menu a {
+    color: #333; /* Text color for child links */
+    font-size: 16px; /* Font size for child links */
+    padding: 10px 20px; /* Padding for child links */
+    text-transform: none; /* Prevent uppercase text */
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #dc3545; /* Background color on hover */
+    color: #fff; /* Text color on hover */
+    text-decoration: none; /* Remove underlines on hover */
+  }
+  
+  /* Additional styles for better spacing and separation */
+  .dropdown-menu .dropdown-divider {
+    border-top: 1px solid #e5e5e5; /* Separation line */
+  }
+  
+  .dropdown-menu .dropdown-item {
+    padding: 10px 20px; /* Spacing for child items */
+  }
+  
+  /* Increase the height of the parent link to make it easier to click */
+  .navbar .nav-item.dropdown:hover {
+    cursor: pointer;
+    background-color: #dc3545; /* Background color on hover */
+  }
+  
